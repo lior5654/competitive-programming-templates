@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# u/lior5654
+.vscode/*

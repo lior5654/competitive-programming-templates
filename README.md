@@ -88,10 +88,14 @@ As stated above, having short & efficient implementations is sometimes key for t
     * Convex-Hull Trick - TODO
 
 * Algebra & Number Theory
-  * Binary Exponentiation - TODO
-  * GCD&LCM - Greatest Common Divisor & Least Common Multiple - TODO
-  * Sieve of Eratosthenes - TODO
-  * Modular Arithmetic Tricks - TODO
+  * Combinatorics (Choose, Permute etc..) - Done
+  * Binary Exponentiation - Done
+  * GCD&LCM - Greatest Common Divisor & Least Common Multiple - Done
+  * Sieve of Eratosthenes - Done
+  * Factoting
+    * O(max*log(max)) - pre processing, O(sum of prime powers in prime factorization) == O(log(max)) query - Done
+    * O(sqrt(num)) -  TODO
+  * Extended GCD - Done
   * Chinese Remainder Theorem - TODO
 
 * Game Theory
