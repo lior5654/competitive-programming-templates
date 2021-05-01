@@ -2,6 +2,8 @@
 
 #include "modint.hpp"
 
+/************************************ math/combinatorics.hpp begin ************************************/
+
 namespace CompetitiveProgramming
 {
 
@@ -56,3 +58,5 @@ public:
 }
 
 using namespace Math;
+
+/************************************ math/combinatorics.hpp end ************************************/

@@ -2,6 +2,8 @@
 
 #include "../general.hpp"
 
+/************************************ math/number_theory.hpp begin ************************************/
+
 namespace CompetitiveProgramming
 {
 
@@ -37,3 +39,5 @@ EGCDResult extended_gcd(ll a, ll b) // theorem: there exist x, y such that x*a +
 }
 
 using namespace Math;
+
+/************************************ math/number_theory.hpp end ************************************/

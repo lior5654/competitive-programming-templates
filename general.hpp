@@ -3,6 +3,8 @@
 
 using namespace std;
 
+/************************************ general.hpp begin ************************************/
+
 namespace CompetitiveProgramming
 {
 
@@ -75,3 +77,5 @@ template<class Container> inline void read_container(Container& container)  // I
 
 using namespace CompetitiveProgramming;
 using namespace IO;
+
+/************************************ general.hpp end ************************************/

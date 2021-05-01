@@ -2,6 +2,8 @@
 
 #include "../general.hpp"
 
+/************************************ math/sieve.hpp begin ************************************/
+
 namespace CompetitiveProgramming
 {
 
@@ -45,6 +47,28 @@ public:
         }
         return factors;
     }
+
+    void get_divisors(int x, vector<int>& res, int out_factor = 1)
+    {
+        if(x != 1)
+        {
+            int cnt = 0;
+            int curr = this->sieve[x];
+            while(this->sieve[x] == curr)
+            {
+                cnt++;
+                x /= curr;
+            }
+            for(int chosen_cnt = 0, extra_factor = 1; chosen_cnt <= cnt; ++chosen_cnt, extra_factor *= curr)
+            {
+                get_divisors(x, res, out_factor * extra_factor);
+            }
+        }
+        else
+        {
+            return res.push_back(out_factor);
+        }
+    }
     inline bool is_prime(int x)
     {
         return sieve[x] == x && x != 1;
@@ -84,3 +108,5 @@ public:
 }
 
 using namespace Math;
+
+/************************************ math/sieve.hpp end ************************************/

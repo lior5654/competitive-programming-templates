@@ -5,6 +5,8 @@
 #pragma once
 #include "../general.hpp"
 
+/************************************ math/modint.hpp begin ************************************/
+
 namespace CompetitiveProgramming
 {
 
@@ -169,3 +171,7 @@ using Mint = Modular<std::integral_constant<decay<decltype(mod)>::type, mod>>;
 }
 
 }
+
+using namespace Math;
+
+/************************************ math/modint.hpp end ************************************/

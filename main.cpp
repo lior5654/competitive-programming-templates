@@ -44,4 +44,12 @@ signed main()
     cout << yay.permute(100, 98) << '\n';
     cout << yay.choose(5, 4) << '\n';
     cout << yay.choose(0, 0) << '\n';
+
+    vector<int> divs;
+    s.get_divisors(525, divs);
+    for(const auto& e : divs)
+    {
+        cout << e << ' ' << '\n';
+    }
+
 }
