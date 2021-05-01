@@ -56,7 +56,7 @@ template<class ElementType> inline void read_array(ElementType* array, uint32_t 
     }
 }
 
-template<class Iterator> inline void read_iterator_range(Iterator begin, Iterator end)
+template<class Iterator> inline void read_iterator_range(Iterator begin, const Iterator& end)
 {
     while(begin != end)
     {
