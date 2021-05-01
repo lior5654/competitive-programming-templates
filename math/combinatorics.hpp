@@ -42,7 +42,7 @@ public:
     inline Mint permute(int n, int k)
     {
         if(k > n) return (Mint)0;
-        return fact[n] * ifact(n-k);
+        return fact(n) * ifact(n-k);
     }
     inline Mint choose(int n, int k)
     {

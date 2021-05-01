@@ -22,6 +22,7 @@ signed main()
     cout << s.is_prime(4) << ' ' << s.is_prime(3) << '\n';
     BooleanSieve<100> t;
     cout << t.is_prime(37) << ' ' << t.is_prime(38) << '\n';
+    cout << t.is_prime(1) << '\n';
     Mint x = 1000000006;
     x *= 1000000006;
     cout << x << '\n';
@@ -39,4 +40,8 @@ signed main()
     cout << lcm(10, 6) << '\n';
     EGCDResult res = extended_gcd(105, 189);
     cout << res.d << ' ' << res.x << ' ' << res.y << ' ' << res.x * 105 + res.y * 189 << '\n';
+
+    cout << yay.permute(100, 98) << '\n';
+    cout << yay.choose(5, 4) << '\n';
+    cout << yay.choose(0, 0) << '\n';
 }
