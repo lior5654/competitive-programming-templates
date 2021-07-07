@@ -18,8 +18,10 @@ As stated above, having short & efficient implementations is sometimes key for t
 
 ## Features
 
+I have implemented most of the algorithms & techniques in this list multiple times during contests, however, I dont have an organized template for all of them as many contests don't allow pre-written code. I am in the process of templating the things I usually implement from scratch during a contest to be publicly available for usage.
+
 ---
-> Note: all algorithms & data structures are implemented in C++. No, I will not extend the repository to other languages.
+> Note: all algorithms & data structures are implemented in C++. I am not considering to extend the repository to other languages.
 
 * Data Structures (& Offline Query Algorithms)
   * Fenwick Tree - Done
