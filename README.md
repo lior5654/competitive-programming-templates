@@ -22,17 +22,17 @@ As stated above, having short & efficient implementations is sometimes key for t
 > Note: all algorithms & data structures are implemented in C++. No, I will not extend the repository to other languages.
 
 * Data Structures (& Offline Query Algorithms)
-  * Fenwick Tree - TODO
-  * Segment Tree - TODO
-    * Regular - TODO
-    * Lazy - TODO
-    * Persistent - TODO
+  * Fenwick Tree - Done
+  * Segment Tree - Done
+    * Regular - Done
+    * Lazy - Done
+    * Persistent - Done
   * Treap - TODO
   * MO's Algorithm (Square Root Decomposition) - TODO
   * RMQ (Range Max/Min Query)
     * O(nlogn) pre-processing, O(1) query - TODO
     * O(n) pre-processing, O(1) query - TODO
-  * DSU (Disjoint Set Union|Union Find) - TODO
+  * DSU (Disjoint Set Union|Union Find) - Done
 
 * Trees
   * DFS (Depth-First Traversal) - TODO
@@ -58,8 +58,8 @@ As stated above, having short & efficient implementations is sometimes key for t
   * SCC (Strongly Connected Components) - TODO
     * Kosaraju's Algorithm - TODO
   * Find Bridges - Tarjan's Algorithm - TODO
-  * Find Articulation Points - TODO
-  * MM (Maximum Bipartite Matching) - TODO
+  * Find Articulation Points - Done
+  * MM (Maximum Bipartite Matching) - Done
   * Dynamic Connectivity - TODO
   * Minimum Vertex Cover - TODO
   * 2-SAT - TODO
@@ -72,8 +72,8 @@ As stated above, having short & efficient implementations is sometimes key for t
   * Matrix Exponentiation - TODO
 
 * String Algorithms
-  * Hashing - TODO
-  * Z-string - TODO
+  * Hashing - Done
+  * Z-string - Done
   * KMP (Knuth-Pratt-Morris) - TODO
   * Trie - TODO
   * Aho Corasic - TODO
@@ -82,7 +82,9 @@ As stated above, having short & efficient implementations is sometimes key for t
 
 * Geometry:
   * Sweep-Line - TODO
-  * Fill a good list - TODO
+  * Point Class - Done
+  * Segment Intersection - Done
+  * Convex Hull in O(nlogn) - Done
   * Geometry Related Data Structures & Tricks:
     * Lee-Chao Tree - TODO
     * Convex-Hull Trick - TODO
@@ -104,7 +106,6 @@ As stated above, having short & efficient implementations is sometimes key for t
   * read https://cp-algorithms.com/game_theory/games_on_graphs.html then TODO
 
 * Miscalleneous
-  * Binary Search - TODO
   * Ternary Search - TODO
   * LIS (Longest Increasing Subsequence) in O(nlogn) - TODO
   * FFT (Fast Forier Transform) For O(nlogn) Polynomial Multiplication - TODO
