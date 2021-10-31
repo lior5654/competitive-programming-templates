@@ -29,7 +29,7 @@ I have implemented most of the algorithms & techniques in this list multiple tim
     * Regular - Done
     * Lazy - Done
     * Persistent - Done
-  * Treap - TODO
+  * Treap - Done
   * MO's Algorithm (Square Root Decomposition) - TODO
   * RMQ (Range Max/Min Query)
     * O(nlogn) pre-processing, O(1) query - TODO
