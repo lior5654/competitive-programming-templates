@@ -1,5 +1,8 @@
 # Competitive Programming Templates
 
+## IMPORTANT NOTE
+This repository is **NOT recommended for projects and production-worthy code**. The repository is intended for usage during competitive programming competitions, and for that reason the library in this repository is implmented with the focus of reducing LoC (Lines of Code) & increasing efficiency
+
 > Made By: ~lior5654 (FiveSixFiveFour)
 
 ## What is "Competitive Programming"?
@@ -14,7 +17,7 @@ As contests are limited by time & one's solution is only judged by it's ability 
 ## What is this repository for?
 
 ---
-As stated above, having short & efficient implementations is sometimes key for time managment during a contest. This repository contains templates of a vast variaty of algorithms & data strucutres used in contests implmented with the focus of reducing LoC (Lines of Code) & efficiency. If you wish to use some algorithm implemented in this repository for a project, consider redesigning the code to be slightly more readable and maintainable for the long run.
+As stated above, having short & efficient implementations is sometimes key for time managment during a contest. This repository contains templates of a vast variaty of algorithms & data strucutres used in contests implmented with the focus of reducing LoC (Lines of Code) & increasing efficiency. If you wish to use some algorithm implemented in this repository for a project, consider redesigning the code to be slightly more readable and maintainable for the long run.
 
 ## Features
 
